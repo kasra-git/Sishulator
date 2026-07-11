@@ -29,6 +29,6 @@ A modern calculator web application with support for:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/calculator.git
+git clone https://github.com/kasra-git/Sishulator.git
 ```
 2. Run HTML file in any browser
