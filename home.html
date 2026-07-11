@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sishulator</title>
+</head>
+<body>
+    <div id="calc-box">
+        <div id="display">
+            <div id="expression"></div>
+            <input id="input" type="text" readonly>
+        </div>
+
+        <div id="button-box">
+            <!-- Row-1 buttons -->
+            <input id="clear-btn" type="button" value="C">
+            <input id="undo-btn" type="button" value="⌫">
+            <input id="power-btn" type="button" value="xʸ">
+            <input id="root-btn" type="button" value="√">
+
+            <!-- Row-2 buttons -->
+            <input class="normal-btn" type="button" value="7">
+            <input class="normal-btn" type="button" value="8">
+            <input class="normal-btn" type="button" value="9">
+            <input id="divide-btn" type="button" value="÷">
+
+            <!-- Row-3 buttons-->
+            <input class="normal-btn" type="button" value="4">
+            <input class="normal-btn" type="button" value="5">
+            <input class="normal-btn" type="button" value="6">
+            <input id="multiply-btn" type="button" value="×">
+
+            <!-- Row-4 buttons -->
+            <input class="normal-btn" type="button" value="1">
+            <input class="normal-btn" type="button" value="2">
+            <input class="normal-btn" type="button" value="3">
+            <input id="minus-btn" type="button" value="−">
+
+            <!-- Row-5 buttons -->
+            <input class="normal-btn" type="button" value="0">
+            <input class="normal-btn" type="button" value=".">
+            <input class="normal-btn" type="button" value="(">
+            <input id="close-paren-btn" type="button" value=")"> 
+
+            <!-- Row-6 buttons -->
+            <input id="equal-btn" type="button" value="=">
+            <input id="plus-btn" type="button" value="+">
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
