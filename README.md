@@ -5,7 +5,7 @@ A modern calculator web application with support for:
 - Exponentiation 
 - Square root
 
-![Calculator Screenshot](../ScreenShots/Sishulator.png)
+![Calculator Screenshot](./ScreenShots/Sishulator.png)
 
 ## Features
 
